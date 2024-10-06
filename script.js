@@ -32,9 +32,9 @@ document.querySelectorAll('.gift-option').forEach(button => {
         // Hiển thị hình ảnh quà tặng dựa trên lựa chọn
         let giftImage = '';
         if (selectedGiftType === 'cake') {
-            giftImage = 'D:\ko.png'; // Đường dẫn ảnh bánh
+            giftImage = 'https://github.com/justmine-devl/birthday-website/blob/main/ko.png'; // Đường dẫn ảnh bánh
         } else if (selectedGiftType === 'balloon') {
-            giftImage = 'D:\kol.png'; // Đường dẫn ảnh bóng bay
+            giftImage = 'https://github.com/justmine-devl/birthday-website/blob/main/kol.png'; // Đường dẫn ảnh bóng bay
         }
 
         selectedGift.innerHTML = `<img src="${giftImage}" alt="${selectedGiftType}">`;
