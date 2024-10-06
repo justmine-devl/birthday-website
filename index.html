@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Click the gift box to reveal the birthday surprise!</h1>
+        <div class="gift-box" id="giftBox">
+            🎁
+        </div>
+        <div class="message" id="message"></div>
+        <div class="gift-selection" id="giftSelection" style="display:none;">
+            <h2>Choose a gift:</h2>
+            <button class="gift-option" data-gift="cake">🍰 Cake</button>
+            <button class="gift-option" data-gift="balloon">🎈 Balloon</button>
+            <button class="gift-option" data-gift="flowers">💐 Flowers</button>
+        </div>
+        <div class="selected-gift" id="selectedGift"></div>
+    </div>
+
+    <audio id="birthdaySong">
+        <source src="happy_birthday_song.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    /* Thêm hình nền từ URL */
+    background-image: url('https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(100)/2024_1_16_638409715607848073_background-sinh-nhat-41.jpg');
+    background-size: cover; /* Hình nền phủ kín */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Chiều cao full trang */
+}
+
+.container {
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.8); /* Tạo lớp nền trong suốt cho nội dung */
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.gift-box {
+    font-size: 100px;
+    cursor: pointer;
+    margin: 20px auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gift-box:hover {
+    transform: scale(1.1);
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ff5733;
+    display: none;
+}
+
